@@ -29,7 +29,7 @@ This Jupyter Notebook contains the code for feature extraction from raw data usi
 
 For programming the Raspberry Pi Pico using the Arduino IDE, please follow the instructions provided by [arduino-pico](https://github.com/earlephilhower/arduino-pico). This will guide you through setting up your development environment.
 
-### `Inference_3`
+### `Inference`
 
 This folder contains the Arduino code for inference. It includes the main logic for processing and interpreting sensor data.
 
