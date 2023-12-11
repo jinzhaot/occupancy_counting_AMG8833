@@ -46,8 +46,8 @@ int keepingIndexList[] = {3,   4,   5,  10,  11,  12,  13,  18,  20,  21,  23,  
 float features[sizeof(keepingIndexList) / sizeof(keepingIndexList[0])]; // Array to store important features
 
 //WiFi parameters
-#define WLAN_SSID       "tiantian"
-#define WLAN_PASS       "12345678"
+#define WLAN_SSID       "xxx" // change to your wifi name
+#define WLAN_PASS       "xxx" // change to your wifi password
 
 // #define WLAN_SSID       "Ruirui&Zhaozhao's Home"
 // #define WLAN_PASS       "tianloverui1314"
@@ -56,8 +56,8 @@ float features[sizeof(keepingIndexList) / sizeof(keepingIndexList[0])]; // Array
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
 //Enter the username and key from the Adafruit IO
-#define AIO_USERNAME    "jinzhaot"
-#define AIO_KEY         "aio_ttwf69j04O5SOP18O45dkQCTjIDn" 
+#define AIO_USERNAME    "xxxx"  // change to your AIO_USERNAME
+#define AIO_KEY         "xxxx"  // change to your AIO_KEY
 WiFiClient client;
 // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
