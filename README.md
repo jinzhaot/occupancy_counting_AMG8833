@@ -35,13 +35,10 @@ This folder contains the Arduino code for inference. It includes the main logic 
 
 ### `Inference_adafruit_mqtt`
 
-This directory contains Arduino code for publishing inference results via MQTT using Adafruit IO. It's essential for remote monitoring and data transmission.
+This directory contains Arduino code for publishing inference results via MQTT using Adafruit IO.
 
 ## Model
 
 ### `ei-human-entrance-final-arduino-1.0.3.zip`
 
-This compressed file contains the machine learning model converted into an Arduino library format. The model is specifically tailored for the project's requirements and is ready for deployment on compatible hardware.
-
-# occupancy_counting_AMG8833
-Use Neural Network to detect human entrance and exit based on IR array
+This compressed file contains the machine learning model converted into an Arduino library format.
